@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px) {
+  .profile__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+}

@@ -1,6 +1,13 @@
 .header {
   display: flex;
+  gap: 17px;
   align-items: center;
   background-color: #0d0d0d;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    gap: 6px;
+  }
 }

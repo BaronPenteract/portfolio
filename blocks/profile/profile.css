@@ -11,7 +11,7 @@
   transition: left .4s linear;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .profile {
     position: absolute;
     top: 40px;

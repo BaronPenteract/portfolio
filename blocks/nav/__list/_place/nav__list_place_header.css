@@ -7,15 +7,8 @@
 
 .nav__list_place_header li:last-child {
   margin-left: auto;
-  margin-right: 17px;
 }
 
 .nav__list_place_header li:has(ul){
   position: relative;
-}
-
-@media screen and (max-width: 1000px) {
-  .nav__list_place_header li:last-child {
-    margin-right: 4px;
-  }
 }

@@ -1,0 +1,19 @@
+.profile__button {
+  min-width: 120px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 25px;
+  border: none;
+  padding: 13px 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
+.profile__button:hover {
+  opacity: .8;
+}

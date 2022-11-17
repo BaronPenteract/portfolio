@@ -1,0 +1,10 @@
+.profile__info-content {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .profile__info-content {
+    align-self: end;
+    text-align: left;
+  }
+}

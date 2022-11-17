@@ -9,3 +9,9 @@
   src: url(roboto/Roboto-Regular.ttf);
   font-size: 400;
 }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(roboto/Roboto-Light.ttf);
+  font-size: 300;
+}

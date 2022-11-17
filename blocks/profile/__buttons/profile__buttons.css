@@ -1,0 +1,4 @@
+.profile__buttons {
+  display: flex;
+  gap: 20px;
+}

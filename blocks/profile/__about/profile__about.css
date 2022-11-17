@@ -1,0 +1,19 @@
+.profile__about {
+  box-sizing: border-box;
+  max-width: 260px;
+  margin: 0 0 29px;
+  padding: 30px 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid #1c1c1c;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+@media screen and (max-width: 800px) {
+  .profile__about {
+    display: none;
+  }
+}

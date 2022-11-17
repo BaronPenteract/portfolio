@@ -26,6 +26,9 @@
 @import url(../blocks/nav/__link/_place/nav__link_place_header.css);
 @import url(../blocks/nav/__link/_list/nav__link_list.css);
 @import url(../blocks/nav/__sublink/nav__sublink.css);
+
+/* search */
+@import url(../blocks/search/search.css);
 /*
 * {
   outline: 1px solid red;

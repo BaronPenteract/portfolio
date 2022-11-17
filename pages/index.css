@@ -1,6 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+/* page */
+@import url(../blocks/page/page.css);
+
+/* profile */
+@import url(../blocks/profile/profile.css);
+
+/* basic-content */
+@import url(../blocks/basic-content/basic-content.css);
 
 * {
   outline: 1px solid red;

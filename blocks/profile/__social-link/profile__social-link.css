@@ -1,4 +1,9 @@
 .profile__social-link {
   width: 25px;
   height: 25px;
+  transition: opacity .2s linear;
+}
+
+.profile__social-link:hover {
+  opacity: .8;
 }

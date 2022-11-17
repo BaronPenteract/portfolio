@@ -14,6 +14,11 @@
 /* header */
 @import url(../blocks/header/header.css);
 
+/* burger */
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/_active/burger_active.css);
+
 /* nav */
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__list/nav__list.css);

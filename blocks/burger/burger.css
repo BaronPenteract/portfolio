@@ -1,0 +1,21 @@
+.burger {
+  display: none;
+  width: 30px;
+  height: 40px;
+  margin: 0 0 0 15px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
+.burger:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 800px) {
+  .burger {
+    display: block;
+  }
+}

@@ -1,7 +1,7 @@
 .nav__link_place_header {
   display: flex;
   align-items: center;
-  padding: 15px 12px 14px 15px;
+  padding: 13px 14px;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 11px;
@@ -12,4 +12,18 @@
 
 .nav__link_place_header:hover {
   background-color: /* var(--accent-color), */ #3137c9;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav__link_place_header {
+    padding: 13px 4px;
+    font-size: 10px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav__link_place_header {
+    display: none;
+  }
 }

@@ -1,5 +1,7 @@
 .search {
   width: 212px;
+  min-height: 40px;
+  box-sizing: border-box;
   padding: 0 0 0 20px;
   background-color: #202020;
   font-weight: 400;
@@ -7,6 +9,7 @@
   line-height: 1.17;
   color: #fff;
   border: none;
+  box-shadow: -7px 1px 10px rgba(0, 0, 0, 0.3);
   transition: background .2s linear;
 }
 

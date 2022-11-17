@@ -4,8 +4,10 @@
   background-repeat: no-repeat;
   background-position: calc(100% - 10px) calc(50% - 1px);
 }
-/*
-.nav__link_list:hover + .nav__list_link {
-  visibility: visible;
-  opacity: 1;
-} */
+
+@media screen and (max-width: 1000px) {
+  .nav__link_list {
+    padding-right: 15px;
+    background-position: calc(100% - 2px) calc(50% - 1px);
+  }
+}

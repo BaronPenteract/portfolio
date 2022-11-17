@@ -1,6 +1,8 @@
 .nav__list_place_header {
   flex-direction: row;
   position: relative;
+  height: 100%;
+  align-items: center;
 }
 
 .nav__list_place_header li:last-child {
@@ -10,4 +12,10 @@
 
 .nav__list_place_header li:has(ul){
   position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav__list_place_header li:last-child {
+    margin-right: 4px;
+  }
 }

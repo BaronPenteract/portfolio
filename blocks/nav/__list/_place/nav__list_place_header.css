@@ -1,0 +1,12 @@
+.nav__list_place_header {
+  flex-direction: row;
+  position: relative;
+}
+
+.nav__list_place_header li:last-child {
+  margin-left: auto;
+}
+
+.nav__list_place_header li:has(ul){
+  position: relative;
+}

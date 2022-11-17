@@ -1,0 +1,11 @@
+.nav__link_list {
+  padding-right: 32px;
+  background-image: url(../../../../images/icons/nav__list-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) calc(50% - 1px);
+}
+/*
+.nav__link_list:hover + .nav__list_link {
+  visibility: visible;
+  opacity: 1;
+} */

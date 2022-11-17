@@ -1,0 +1,15 @@
+.nav__link_place_header {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.18;
+  color: #fff;
+  transition: background-color .2s linear;
+}
+
+.nav__link_place_header:hover {
+  background-color: /* var(--accent-color), */ #3137c9;
+}

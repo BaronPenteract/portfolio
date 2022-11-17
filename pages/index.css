@@ -10,6 +10,23 @@
 /* basic-content */
 @import url(../blocks/basic-content/basic-content.css);
 
+
+/* header */
+@import url(../blocks/header/header.css);
+
+/* nav */
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list/_place/nav__list_place_aside.css);
+@import url(../blocks/nav/__list/_place/nav__list_place_header.css);
+@import url(../blocks/nav/__sublist/nav__sublist.css);
+@import url(../blocks/nav/__sublist/_active/nav__sublist_active.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__link/_active/nav__link_active.css);
+@import url(../blocks/nav/__link/_place/nav__link_place_header.css);
+@import url(../blocks/nav/__link/_list/nav__link_list.css);
+@import url(../blocks/nav/__sublink/nav__sublink.css);
+/*
 * {
   outline: 1px solid red;
-}
+} */

@@ -1,0 +1,18 @@
+.nav__sublist {
+  width: 142px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 10px 12px 13px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3139c9;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .2s linear, opacity .2s linear;
+}
+
+.nav__sublist li:last-child {
+  margin-left: 0;
+}

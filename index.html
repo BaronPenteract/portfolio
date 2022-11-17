@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,67 @@
   <title>BaronPenteract</title>
 </head>
 <body class="page">
-  <aside class="profile"> About</aside>
+  <aside class="profile profile__active">
+    <img class="profile__image" src="images/portfolio-bg.jpg" alt="Обложка портфолио, пока так">
+    <div class="profile__info">
+      <img class="profile__avatar" src="images/photo_2022-08-24_15-57-40.jpg" alt="Это я">
+      <div class="profile__info-content">
+        <h1 class="profile__title">BaronPenteract</h1>
+        <p class="profile__subtitle">блог front-end разработчика</p>
+      </div>
+    </div>
+    <ul class="profile__social">
+      <li>
+        <a class="profile__social-link" href="#" target="_blank">
+          <img class="profile__social-image" src="images/icons/instagram (1) 1.svg" alt="instagram, запрещенная в РФ соц. сеть">
+        </a>
+      </li>
+      <li>
+        <a class="profile__social-link" href="#" target="_blank">
+          <img class="profile__social-image" src="images/icons/vk 1.svg" alt="ВКонтакте соц.сеть">
+        </a>
+      </li>
+      <li>
+        <a class="profile__social-link" href="#" target="_blank">
+          <img class="profile__social-image" src="images/icons/pinterest 1.svg" alt="Пинтерест">
+        </a>
+      </li>
+    </ul>
+    <p class="profile__about">
+      Front-end разработчик. Практик верстки сайтов. Созданием сайтов занимаюсь с&nbsp;2012&nbsp;года. Работал в&nbsp;нескольких&nbsp;ИТ компаниях и&nbsp;наработал более 10&nbsp;000 часов в&nbsp;создании сайтов различной сложности
+    </p><!--
+    <nav class="nav">
+      <ul class="nav__list">
+        <li>
+          <a class="nav__link" href="#">Статьи</a>
+          <ul class="nav__list">
+            <li>
+              <a class="nav__link" href="#">Создание сайтов</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Интернет-маркетинг</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Продвижение видео</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="nav__link" href="#">Обо мне</a>
+        </li>
+        <li>
+          <a class="nav__link" href="#">Реклама</a>
+        </li>
+        <li>
+          <a class="nav__link" href="#">Профиль</a>
+        </li>
+      </ul>
+    </nav> -->
+    <div class="profile__buttons">
+      <button class="profile__button profile__button_type_works" type="button">Мои работы</button>
+      <button class="profile__button profile__button_type_write-me" type="button">Написать мне</button>
+    </div>
+  </aside>
   <div class="basic-content">
     <h1>Hi, there! I'm BaronPenteract!</h1></div>
   <script src="scripts/index.js"></script>

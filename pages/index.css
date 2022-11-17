@@ -1,15 +1,32 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/variables/variables.css);
 
 /* page */
 @import url(../blocks/page/page.css);
 
 /* profile */
 @import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/_active/profile__active.css);
+@import url(../blocks/profile/__image/profile__image.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__info-content/profile__info-content.css);
+@import url(../blocks/profile/__title/profile__title.css);
+@import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__social/profile__social.css);
+@import url(../blocks/profile/__social-link/profile__social-link.css);
+@import url(../blocks/profile/__social-image/profile__social-image.css);
+@import url(../blocks/profile/__about/profile__about.css);
+@import url(../blocks/profile/__buttons/profile__buttons.css);
+@import url(../blocks/profile/__button/profile__button.css);
+@import url(../blocks/profile/__button/_type/profile__button_type_works.css);
+@import url(../blocks/profile/__button/_type/profile__button_type_write-me.css);
 
 /* basic-content */
 @import url(../blocks/basic-content/basic-content.css);
 
-* {
+
+/* * {
   outline: 1px solid red;
-}
+} */

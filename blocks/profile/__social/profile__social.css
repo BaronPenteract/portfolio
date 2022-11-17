@@ -1,0 +1,13 @@
+.profile__social {
+  list-style-type: none;
+  margin: 0 0 30px;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .profile__social {
+    display: none;
+  }
+}

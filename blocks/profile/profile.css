@@ -1,5 +1,6 @@
 .profile {
   width: 100%;
+  position: relative;
   box-sizing: border-box;
   max-width: 300px;
   padding-bottom: 15px;

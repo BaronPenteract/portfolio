@@ -1,9 +1,9 @@
 /* burger */
-let headerElement = document.querySelector('.header');
-let burgerButtonElement = headerElement.querySelector('.burger');
-let headerNavElement = headerElement.querySelector('.nav');
-let profileElement = document.querySelector('.profile');
-let profileOverlayElement = profileElement.querySelector('.profile__overlay');
+const headerElement = document.querySelector('.header');
+const burgerButtonElement = headerElement.querySelector('.burger');
+const headerNavElement = headerElement.querySelector('.nav');
+const profileElement = document.querySelector('.profile');
+const profileOverlayElement = profileElement.querySelector('.profile__overlay');
 
 /* ------------------------------------------------------------ */
 /* burger */

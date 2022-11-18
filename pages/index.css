@@ -5,6 +5,9 @@
 /* page */
 @import url(../blocks/page/page.css);
 
+/* theme */
+@import url(../blocks/theme/theme.css);
+
 /* profile */
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__overlay/profile__overlay.css);

@@ -1,6 +1,7 @@
 .profile {
   width: 100%;
-  position: relative;
+  position: sticky;
+  top: 0;
   box-sizing: border-box;
   max-width: 300px;
   padding-bottom: 15px;
@@ -13,7 +14,7 @@
 
 @media screen and (max-width: 900px) {
   .profile {
-    position: absolute;
+    position: fixed;
     top: 40px;
     left: -100%;
     z-index: 1000;

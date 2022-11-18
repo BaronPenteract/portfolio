@@ -3,21 +3,22 @@
   min-height: 40px;
   box-sizing: border-box;
   padding: 0 0 0 20px;
-  background-color: #202020;
+  background-color: var(--element-bg-color);
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
-  color: #fff;
+  color: var(--main-text-color);
   border: none;
-  box-shadow: -7px 1px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: -7px 1px 10px var(--shadow-color);
   transition: background .2s linear;
 }
 
 .search::placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--main-text-color);
+  opacity: .4;
 }
 
 .search:focus {
   outline: none;
-  background-color: #3139c9;
+  background-color: var(--accent-color);
 }

@@ -1,3 +1,27 @@
 :root {
+  --main-text-color: #fff;
   --accent-color: #3137c9;
+  --page-bg-color: #181818;
+  --border-color: #1c1c1c;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+
+  --works-button-color: #ED3024;
+  --profile-subtitle-color: #dedede;
+
+
+  --header-bg-color: #0d0d0d;
+  --element-bg-color: #202020;
+
+
+/*
+  --element-bg-color: #d5d5d5;
+  --main-text-color: #000;
+  --accent-color: #00ffe0;
+  --page-bg-color: #e5e5e5;
+  --border-color: #e1e1e1;
+  --shadow-color: rgb(141 141 141 / 30%);
+  --works-button-color: #ff5247;
+  --profile-subtitle-color: #343434;
+  --header-bg-color: #f3f3f3;
+ */
 }

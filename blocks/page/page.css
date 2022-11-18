@@ -3,10 +3,10 @@
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  background-color: #181818;
+  background-color: var(--page-bg-color);
   align-items: start;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #fff;
+  color: var(--main-text-color);
 }

@@ -6,10 +6,10 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  color: #fff;
+  color: var(--main-text-color);
   text-align: center;
-  border-top: 1px solid #1c1c1c;
-  border-bottom: 1px solid #1c1c1c;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 @media screen and (max-width: 800px) {

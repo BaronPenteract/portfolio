@@ -4,7 +4,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 1.88;
-  color: #FFFFFF;
+  color: var(--main-text-color);
   transition: color .2s linear;
 }
 

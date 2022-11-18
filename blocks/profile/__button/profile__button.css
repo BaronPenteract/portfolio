@@ -8,7 +8,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: var(--main-text-color);
   text-align: center;
   cursor: pointer;
   transition: opacity .2s linear;

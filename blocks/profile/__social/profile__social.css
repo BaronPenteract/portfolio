@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 800px) {
   .profile__social {
-    display: none;
+    margin: 0 0 30px;
   }
 }

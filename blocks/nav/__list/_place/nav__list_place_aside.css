@@ -1,3 +1,6 @@
 .nav__list_place_aside {
   flex-direction: column;
+  padding: 20px 15px 0;
+  margin-bottom: 16px;
+  gap: 7px;
 }

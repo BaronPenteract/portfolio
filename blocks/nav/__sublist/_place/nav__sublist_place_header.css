@@ -1,0 +1,12 @@
+.nav__sublist_place_header {
+  width: 142px;
+  gap: 7px;
+  padding: 10px 13px 13px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3139c9;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .2s linear, opacity .2s linear;
+}

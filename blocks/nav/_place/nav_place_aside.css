@@ -1,0 +1,12 @@
+.nav_place_aside {
+  display: none;
+  max-width: 270px;
+  width: 100%;
+  border-top: 1px solid #1c1c1c;
+}
+
+@media screen and (max-width: 800px) {
+  .nav_place_aside{
+    display: flex;
+  }
+}

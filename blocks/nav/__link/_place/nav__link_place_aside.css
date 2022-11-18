@@ -1,0 +1,13 @@
+.nav__link_place_aside {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #FFFFFF;
+  transition: color .2s linear;
+}
+
+.nav__link_place_aside:hover {
+  color: var(--accent-color);
+}

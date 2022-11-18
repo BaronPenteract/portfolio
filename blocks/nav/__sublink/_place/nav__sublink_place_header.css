@@ -1,0 +1,10 @@
+.nav__sublink_place_header {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  transition: opacity .2s linear;
+}
+
+.nav__sublink_place_header:hover {
+  opacity: .8;
+}

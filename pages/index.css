@@ -30,6 +30,9 @@
 /* basic-content */
 @import url(../blocks/basic-content/basic-content.css);
 
+/* content */
+@import url(../blocks/content/content.css);
+
 
 /* header */
 @import url(../blocks/header/header.css);
@@ -59,6 +62,16 @@
 
 /* search */
 @import url(../blocks/search/search.css);
+/*
+
+/* stories */
+@import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__container/stories__container.css);
+@import url(../blocks/stories/__item/stories__item.css);
+@import url(../blocks/stories/__image/stories__image.css);
+@import url(../blocks/stories/__title/stories__title.css);
+@import url(../blocks/stories/__time/stories__time.css);
+
 /*
 * {
   outline: 1px solid red;

@@ -1,0 +1,8 @@
+.stories__time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: right;
+  text-transform: uppercase;
+  color: inherit;
+}

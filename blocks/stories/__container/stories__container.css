@@ -1,0 +1,7 @@
+.stories__container {
+  display: flex;
+  gap: 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

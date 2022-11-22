@@ -50,3 +50,9 @@ function hideSublist() {
   navSublistElement.classList.remove('nav__sublist_active');
 }
 /* ------------------------------------------------------------ */
+
+const storiesElement = document.querySelector('.stories');
+storiesElement.addEventListener('wheel', function(e) {
+  e.preventDefault();
+  storiesElement.scrollLeft += e.deltaY;
+})

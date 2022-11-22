@@ -1,4 +1,6 @@
 .header {
+  width: 100%;
+  margin-bottom: 60px;
   display: flex;
   gap: 17px;
   align-items: center;
@@ -11,5 +13,6 @@
 @media screen and (max-width: 1000px) {
   .header {
     gap: 6px;
+    margin-bottom: 20px;
   }
 }

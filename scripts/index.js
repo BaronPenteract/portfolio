@@ -26,6 +26,17 @@ profileOverlayElement.addEventListener('click', function(e) {
 })
 
 /* nav link list */
+
+function showSublist() {
+  navLinkListElement.classList.add('nav__link_active');
+  navSublistElement.classList.add('nav__sublist_active');
+}
+
+function hideSublist() {
+  navLinkListElement.classList.remove('nav__link_active');
+  navSublistElement.classList.remove('nav__sublist_active');
+}
+/* ------------------------------------------------------------ */
 navLinkListElement.addEventListener('mouseover', function(e) {
   showSublist();
 })
@@ -38,21 +49,4 @@ navSublistElement.addEventListener('mouseover', function(e) {
 })
 navSublistElement.addEventListener('mouseout', function(e) {
   hideSublist();
-})
-
-function showSublist() {
-  navLinkListElement.classList.add('nav__link_active');
-  navSublistElement.classList.add('nav__sublist_active');
-}
-
-function hideSublist() {
-  navLinkListElement.classList.remove('nav__link_active');
-  navSublistElement.classList.remove('nav__sublist_active');
-}
-/* ------------------------------------------------------------ */
-
-const storiesElement = document.querySelector('.stories');
-storiesElement.addEventListener('wheel', function(e) {
-  e.preventDefault();
-  storiesElement.scrollLeft += e.deltaY;
 })

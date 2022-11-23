@@ -12,7 +12,7 @@
   border: none;
   border-bottom: 1px solid transparent;
   transition: border .2s linear;
-  resize: vertical;
+  resize: none;
 }
 
 .posts__input::placeholder {

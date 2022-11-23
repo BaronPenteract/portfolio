@@ -1,0 +1,17 @@
+.posts__btn {
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
+.posts__btn:hover {
+  opacity: .6;
+}

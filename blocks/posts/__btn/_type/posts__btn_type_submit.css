@@ -1,0 +1,4 @@
+.posts__btn_type_submit {
+  background-image: url(../../../../images/icons/sendPost.svg);
+  background-color: var(--accent-color);
+}

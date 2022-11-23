@@ -13,7 +13,7 @@ const themes = {
   '--profile-subtitle-color': ['#dedede', '#343434'],
 
 
-  '--header-bg-color': ['#0d0d0d', '#f3f3f3'],
+  '--handle-bg-color': ['#0d0d0d', '#f3f3f3'],
   '--element-bg-color': ['#202020', '#d5d5d5'],
 };
 

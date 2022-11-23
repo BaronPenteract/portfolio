@@ -1,0 +1,26 @@
+.posts__input {
+  align-self: center;
+  max-height: 500px;
+  height: 24px;
+  width: 100%;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  border-bottom: 1px solid transparent;
+  transition: border .2s linear;
+  resize: vertical;
+}
+
+.posts__input::placeholder {
+  color: var(--main-text-color);
+  opacity: .4;
+}
+
+.posts__input:focus {
+  outline: none;
+  border-bottom-color: var(--main-text-color);
+}

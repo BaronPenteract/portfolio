@@ -1,0 +1,7 @@
+.posts__btns-fieldset {
+  display: flex;
+  gap: 15px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}

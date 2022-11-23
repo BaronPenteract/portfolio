@@ -1,0 +1,18 @@
+.posts__topic {
+  display: block;
+  position: relative;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.18;
+  text-transform: lowercase;
+  color: var(--sub-text-color);
+  opacity: .7;
+}
+
+.posts__topic::before {
+  content: '⚫';
+  position: absolute;
+  top: 0;
+  left: -21px;
+}

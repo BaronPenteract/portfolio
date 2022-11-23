@@ -1,13 +1,12 @@
 :root {
   --main-text-color: #fff;
+  --sub-text-color: #dedede;
   --accent-color: #3137c9;
   --page-bg-color: #181818;
   --border-color: #1c1c1c;
   --shadow-color: rgba(0, 0, 0, 0.3);
 
   --works-button-color: #ED3024;
-  --profile-subtitle-color: #dedede;
-
 
   --handle-bg-color: #0d0d0d;
   --element-bg-color: #202020;

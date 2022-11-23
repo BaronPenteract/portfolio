@@ -1,0 +1,5 @@
+.posts__item {
+  background-color: var(--element-bg-color);
+  box-shadow: 0px 15px 25px var(--shadow-color);
+  border-radius: 5px;
+}

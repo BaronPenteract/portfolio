@@ -1,0 +1,14 @@
+.posts__list {
+  list-style-type: none;
+  margin: 0 0 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (max-width: 656px) {
+  .posts__list {
+    margin-bottom: 21px;
+  }
+}

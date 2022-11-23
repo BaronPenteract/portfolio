@@ -1,0 +1,14 @@
+.posts__title {
+  margin: 0 0 15px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--main-text-color);
+}
+
+@media screen and (max-width: 656px) {
+  .posts__title {
+    margin-bottom: 21px;
+  }
+}

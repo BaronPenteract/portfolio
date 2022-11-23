@@ -1,0 +1,3 @@
+.posts__nav-btn_active {
+  background-color: var(--accent-color);
+}

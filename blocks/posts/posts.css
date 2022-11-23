@@ -3,4 +3,11 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 656px) {
+  .posts {
+    padding-bottom: 50px;
+  }
 }

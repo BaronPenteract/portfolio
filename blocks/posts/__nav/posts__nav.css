@@ -1,0 +1,6 @@
+.posts__nav {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

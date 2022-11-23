@@ -1,0 +1,13 @@
+.posts__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.142;
+  color: var(--accent-color);
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: opacity .2s linear;
+}
+
+.posts__link:hover {
+  opacity: .8;
+}

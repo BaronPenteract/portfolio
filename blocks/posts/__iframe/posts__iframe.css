@@ -1,0 +1,13 @@
+.posts__iframe {
+  width: 100%;
+  height: 304px;
+  padding: 25px 25px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 656px) {
+  .posts__iframe {
+    padding: 0;
+    height: 205px;
+  }
+}

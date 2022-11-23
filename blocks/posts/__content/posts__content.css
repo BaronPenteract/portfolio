@@ -1,0 +1,9 @@
+.posts__content {
+  padding: 25px 28px;
+}
+
+@media screen and (max-width: 800px) {
+  .posts__content {
+    padding: 13px 15px 17px;
+  }
+}

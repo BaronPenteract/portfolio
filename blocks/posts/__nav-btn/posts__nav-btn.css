@@ -1,0 +1,21 @@
+.posts__nav-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--handle-bg-color);
+  box-shadow: 0px 0px 10px var(--shadow-color);
+  border-radius: 3px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.142;
+  color: inherit;
+  cursor: pointer;
+  transition: background .2s linear;
+}
+
+.posts__nav-btn:hover {
+  background-color: var(--accent-color);
+}

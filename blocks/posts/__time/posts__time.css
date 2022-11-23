@@ -1,0 +1,7 @@
+.posts__time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.18;
+  color: var(--sub-text-color);
+  opacity: .7;
+}

@@ -149,9 +149,100 @@
           </article>
         </div>
       </section>
+      <section class="posts" aria-label="Новости">
+        <form action="/" class="posts__form" name="formPost">
+          <textarea class="posts__input" type="text" placeholder="Напишите что-нибудь" contenteditable></textarea>
+          <fieldset class="posts__btns-fieldset">
+            <button class="posts__btn posts__btn_type_add-image" type="button"></button>
+            <button class="posts__btn posts__btn_type_submit" type="submit"></button>
+          </fieldset>
+        </form>
+        <ul class="posts__list">
+          <li>
+            <article>
+              <div class="posts__item posts__item_type_simple" aria-label="Какой-то простой пост с этим названием">
+                <div class="posts__content">
+                  <p class="posts__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                  </p>
+                  <div class="posts__footer">
+                    <time class="posts__time" datetime="2020-09-21">21.09.2020</time>
+                  </div><!-- /.posts__footer -->
+                </div><!-- /.posts__content -->
+              </div><!-- /.posts__item -->
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="posts__item posts__item_type_basic">
+                <img class="posts__image" src="images/posts/post-basic.jpg" alt="Образец подписи">
+                <div class="posts__content">
+                  <h2 class="posts__title">
+                    Как писать код быстро и безболезненно?
+                  </h2>
+                  <p class="posts__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                  </p>
+                  <div class="posts__footer">
+                    <time class="posts__time" datetime="2020-09-21">21.09.2020</time>
+                    <span class="posts__topic">создание сайтов</span>
+                    <a class="posts__link" href="/" target="_blank">читать</a>
+                  </div><!-- /.posts__footer -->
+                </div><!-- /.posts__content -->
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="posts__item posts__item_type_video">
+                <iframe class="posts__iframe" src="https://www.youtube.com/embed/Gd2OapjhJwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Ошибочка вышла, ваш браузер не может воспроизвести это видео.
+                </iframe>
+                <div class="posts__content">
+                  <h2 class="posts__title">
+                    2rbina2rista - brutality
+                  </h2>
+                  <div class="posts__footer">
+                    <time class="posts__time" datetime="2020-09-21">21.09.2020</time>
+                    <span class="posts__topic">продвижение видео</span>
+                    <a class="posts__link" href="/" target="_blank">оставить комментарий</a>
+                  </div><!-- /.posts__footer -->
+                </div><!-- /.posts__content -->
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="posts__item posts__item_type_basic">
+                <img class="posts__image" src="images/posts/post-basic2.jpg" alt="Образец подписи">
+                <div class="posts__content">
+                  <h2 class="posts__title">
+                    Как я сходил на FrontEnd Conf 2021
+                  </h2>
+                  <p class="posts__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                  </p>
+                  <div class="posts__footer">
+                    <time class="posts__time" datetime="2020-09-21">21.09.2020</time>
+                    <span class="posts__topic">создание сайтов</span>
+                    <a class="posts__link" href="/" target="_blank">читать</a>
+                  </div><!-- /.posts__footer -->
+                </div><!-- /.posts__content -->
+              </div>
+            </article>
+          </li>
+        </ul>
+        <nav class="posts__nav">
+          <button type="button" class="posts__nav-btn posts__nav-btn_type_prev">&lt;</button>
+          <button type="button" class="posts__nav-btn posts__nav-btn_type_page">1</button>
+          <button type="button" class="posts__nav-btn posts__nav-btn_type_page">2</button>
+          <button type="button" class="posts__nav-btn posts__nav-btn_type_page">3</button>
+          <button type="button" class="posts__nav-btn posts__nav-btn_type_next">&gt;</button>
+        </nav>
+      </section>
     </main>
   </div>
   <script src="scripts/index.js"></script>
   <script src="scripts/theme.js"></script>
+  <script src="scripts/posts.js"></script>
 </body>
 </html>

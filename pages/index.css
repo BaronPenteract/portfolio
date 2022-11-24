@@ -79,7 +79,7 @@
 @import url(../blocks/posts/__input/posts__input.css);
 @import url(../blocks/posts/__btns-fieldset/posts__btns-fieldset.css);
 @import url(../blocks/posts/__btn/posts__btn.css);
-@import url(../blocks/posts/__btn/_type/posts__btn_type_add-image.css);
+@import url(../blocks/posts/__btn/_type/posts__btn_type_add-media.css);
 @import url(../blocks/posts/__btn/_type/posts__btn_type_submit.css);
 
 @import url(../blocks/posts/__list/posts__list.css);

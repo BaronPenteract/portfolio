@@ -17,3 +17,10 @@
     display: none;
   }
 }
+
+@media screen and (max-height: 624px) {
+  .profile__about {
+    padding: 15px 0;
+    margin-bottom: 15px;
+  }
+}

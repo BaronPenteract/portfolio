@@ -4,3 +4,10 @@
   margin-bottom: 16px;
   gap: 7px;
 }
+
+@media screen and (max-height: 624px) {
+  .nav__list_place_aside {
+    padding: 10px 15px 0;
+    gap: 5px;
+  }
+}

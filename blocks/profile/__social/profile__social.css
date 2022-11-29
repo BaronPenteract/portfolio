@@ -11,3 +11,10 @@
     margin: 0 0 30px;
   }
 }
+
+
+@media screen and (max-height: 624px) {
+  .profile__social {
+    margin-bottom: 12px;
+  }
+}

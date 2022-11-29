@@ -14,3 +14,10 @@
     gap: 10px;
   }
 }
+
+@media screen and (max-height: 624px) {
+  .profile__info {
+    gap: 5px;
+    margin-bottom: 6px;
+  }
+}

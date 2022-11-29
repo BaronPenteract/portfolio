@@ -18,10 +18,12 @@ const themes = {
 };
 
 
-themeButtonElement.addEventListener('click', function() {
+export function activateTheme() {
+  themeButtonElement.addEventListener('click', function() {
   theme = theme == 1 ? 0 : 1;
 
   for ( let attribute in themes) {
     root.style.setProperty(attribute, themes[attribute][theme]);
   }
 })
+}

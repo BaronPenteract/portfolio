@@ -1,13 +1,15 @@
-const topics = [
+export const topics = [
   'создание сайтов',
   'продвижение видео'
 ]
-const types = [
+
+export const types = [
   'posts__item_type_text',
   'posts__item_type_image',
   'posts__item_type_video',
 ]
-const initialPosts = [
+
+export const initialPosts = [
   {
     type: types[1],
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.',

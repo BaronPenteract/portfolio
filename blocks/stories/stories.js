@@ -1,8 +1,5 @@
 const storiesElement = document.querySelector('.stories');
 const storiesContainer = storiesElement.querySelector('.stories__container');
-const storiesElementPosXstart = storiesElement.offsetLeft;
-const storiesElementPosXend = storiesElementPosXstart + storiesElement.offsetWidth;
-const storiesContainerWidth = storiesContainer.offsetWidth;
 
 let posX;
 let posInit;
@@ -27,6 +24,7 @@ function checkPosition() {
 }
 
 function swipeStart(e) {
+  storiesContainer.onselectstart = () => false;
   let evt = getEvent(e);
 
   posInit = evt.clientX;
@@ -51,7 +49,7 @@ function swipeAction(e) {
 
 function swipeEnd(e) {
 
-  checkPosition();
+  setTimeout(checkPosition, 100);
 
   storiesElement.removeEventListener('touchmove', swipeAction);
   storiesElement.removeEventListener('mousemove', swipeAction);
@@ -60,19 +58,22 @@ function swipeEnd(e) {
   storiesElement.removeEventListener('mouseup', swipeEnd);
 }
 
-storiesElement.addEventListener('wheel', function(e) {
-  e.preventDefault();
-  let deltaX = e.wheelDelta > 0 ? 50 : -50;
+export function activateStoriesScrollAndSwipe() {
+  storiesElement.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    let deltaX = e.wheelDelta > 0 ? 50 : -50;
 
-  if ( !checkPosition() ) {
-    posDelta = 0;
-  };
+    if ( !checkPosition() ) {
+      posDelta = 0;
+    };
 
-  posDelta += deltaX;
-  storiesContainer.style.left = posDelta + 'px';
+    posDelta += deltaX;
+    storiesContainer.style.left = posDelta + 'px';
 
-  checkPosition();
-})
+    setTimeout(checkPosition, 100);
+  })
 
-storiesElement.addEventListener('touchstart', swipeStart);
-storiesElement.addEventListener('mousedown', swipeStart);
+  storiesElement.addEventListener('touchstart', swipeStart);
+  storiesElement.addEventListener('mousedown', swipeStart);
+
+}

@@ -1,8 +1,11 @@
+import { initialPosts } from "./initialPosts.js";
+import { topics } from "./initialPosts.js";
+import { types } from "./initialPosts.js";
+
 const postsSection = document.querySelector('.posts');
 const formPost = postsSection.querySelector('.posts__form');
 const inputTextarea = formPost.querySelector('.posts__input');
 const inputText = formPost.querySelector('.posts__input_type_text');
-const btnSubmit = formPost.querySelector('.posts__btn_type_submit');
 const btnAddMedia = formPost.querySelector('.posts__btn_type_add-media');
 
 const postsList = postsSection.querySelector('.posts__list');
@@ -68,8 +71,8 @@ function createPost(postObj) {
 }
 /* -------------------------------------------------------------------------------------- */
 
-function showPost(postElement) {
-  postsList.prepend(postElement);
+function showPost(postElement, wrapElement) {
+  wrapElement.prepend(postElement);
 }
 
 function timeToText(timeOfPublish) {
@@ -95,40 +98,42 @@ function timeToText(timeOfPublish) {
   return timeText
 }
 
-inputTextarea.addEventListener('keydown', function() {
-  setTimeout( function() {
-    inputTextarea.style.cssText = 'height: ' + inputTextarea.scrollHeight + 'px';
-  }, 1)
-})
+export function activatePosts() {
+  inputTextarea.addEventListener('keydown', function() {
+    setTimeout( function() {
+      inputTextarea.style.cssText = 'height: ' + inputTextarea.scrollHeight + 'px';
+    }, 1)
+  })
 
-let postTitlePromt,
-    postUrlPromt;
-btnAddMedia.addEventListener('click', function() {
-  postTitlePromt = prompt('Title', );
-  postUrlPromt = prompt('URL', );
-})
+  let postTitlePromt,
+      postUrlPromt;
+  btnAddMedia.addEventListener('click', function() {
+    postTitlePromt = prompt('Title', );
+    postUrlPromt = prompt('URL', );
+  })
 
-formPost.addEventListener('submit', function(e) {
-  e.preventDefault();
+  formPost.addEventListener('submit', function(e) {
+    e.preventDefault();
 
-  const post = {
-    type: postUrlPromt ? types[1] : types[0],
-    text: inputText.value,
-    time: new Date(),
-    media: {
-      title: postTitlePromt,
-      url: postUrlPromt,
-    },
-  };
-  inputText.value = '';
-  postTitlePromt = undefined;
-  postUrlPromt = undefined;
+    const post = {
+      type: postUrlPromt ? types[1] : types[0],
+      text: inputText.value,
+      time: new Date(),
+      media: {
+        title: postTitlePromt,
+        url: postUrlPromt,
+      },
+    };
+    inputText.value = '';
+    postTitlePromt = undefined;
+    postUrlPromt = undefined;
 
-  showPost(createPost(post));
-  console.log('Добавлено.');
-})
+    showPost(createPost(post), postsList);
+    console.log('Добавлено.');
+  })
 
 
-initialPosts.forEach(function(post) {
-  showPost(createPost(post))
-})
+  initialPosts.forEach(function(post) {
+    showPost(createPost(post), postsList)
+  })
+}
